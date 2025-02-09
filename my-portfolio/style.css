@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2 {
+    text-align: center;
+}
+#home {
+    background-color: #f4f4f4;
+    padding: 2rem;
+}
+section {
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+#about {
+    background-color: #e0e0e0;
+}
+#portfolio {
+    background-color: #f4f4f4;
+}
+#contact {
+    background-color: #e0e0e0;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
